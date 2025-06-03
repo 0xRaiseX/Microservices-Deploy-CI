@@ -20,8 +20,8 @@ A simple FastAPI application packaged as a Docker container and deployed to GitH
 Clone the repository:
 
 ```Bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/0xRaiseX/jubilant-lamp.git
+cd jubilant-lamp
 ```
 
 ## Install dependencies:

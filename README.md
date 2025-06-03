@@ -37,17 +37,9 @@ pip install flask
 docker build -t fastapi-microservice .
 ```
 
-## Usage
-Run the application locally:
-```Bash
-cd /app
-uvicorn main:app --host 0.0.0.0 --port 8000
-```
-Access the API at http://localhost:8000
-
 ## Run using Docker:
 ```Bash
-docker run -p 8000:8000 fastapi-microservice
+docker run -p 8000:5000 fastapi-microservice
 ```
 
 ## Deployment to GHCR
@@ -59,13 +51,13 @@ docker pull ghcr.io/your-username/fastapi-microservice:latest
 ```
 
 ## Project Structure
-
+```
 ├── app/main.py          # FastAPI application code
 ├── Dockerfile           # Docker configuration
 ├── /manifests           # Manifests to K8s
 ├── .github/workflows    # GitHub Actions for CI/CD
 └── README.md            # Project documentation
-
+```
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.

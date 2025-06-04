@@ -7,7 +7,7 @@ A simple FastAPI application packaged as a Docker container and deployed to GitH
 - FastAPI-based REST API with sample endpoints
 - Dockerized application for consistent deployment
 - Automated build and push to GHCR using GitHub Actions
-- Lightweight and minimal dependencies
+- Lightweight and minimal dependencies 
 
 ## Prerequisites
 
